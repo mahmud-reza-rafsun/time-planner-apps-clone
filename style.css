@@ -9,16 +9,64 @@ a{
 .max-width{
     max-width: 1300px;
     margin: auto;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 /* header-section */
 
 .navbar{
     width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 14px 0;
 }
 .navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.navbar .logo-section img{
+    width: 50px;
+    margin-right: 10px;
+    float: left;
+}
+.navbar .logo-section span{
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 8px;
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.navbar .logo-section span:hover{
+    color: #cbcaca;
+}
+.navbar .menu-section li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar .menu-section li a{
+    font-size: 18px;
+    margin-right: 30px;
+    font-weight: 400;
+}
+.navbar .menu-section li a:hover{
+    transition: color 0.3s ease;
+    color: #6278df;
+}
+.btn-section button{
+    color: #6278df;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #6278df;
+    color: #6278df;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.btn-section button:hover{
+    background: #6278df;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, .5);
 }
